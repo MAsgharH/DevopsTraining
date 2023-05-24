@@ -1,6 +1,6 @@
 #!/bin/bash
-i=2
-for day in Mon Tue Wed Thu Fri
+i=1
+for Months jan Feb March April May June July Agust Septepber October November December
 do
- echo "Weekday $((i++)) : $day"
+ echo "year $((i++)) : $Months"
 done
